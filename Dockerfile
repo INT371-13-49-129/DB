@@ -1,4 +1,4 @@
 FROM mysql
 COPY ./scripts ./scripts
-ENV  MYSQL_ROOT_PASSWORD=admin_admin_007
+ENV  MYSQL_ROOT_PASSWORD=kamin124712
 EXPOSE 3306

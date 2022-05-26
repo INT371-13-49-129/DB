@@ -1,7 +1,8 @@
 version: "3"
 services:
   db:
-    image: ghcr.io/int371-13-49-129/int371:dev
+    image: database
+    build: .
     container_name: db
     networks:
        allnetwork:

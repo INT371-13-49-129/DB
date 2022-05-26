@@ -11,6 +11,8 @@ services:
     networks:
        allnetwork:
           ipv4_address: 172.20.0.4
+    ports:
+      - "3306:3306"
 networks:
   default:
     external:
